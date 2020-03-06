@@ -1,11 +1,21 @@
-# Gatsby starter React Bricks with Tailwind
+# Gatsby starter React Bricks
 
-Kick-start your project with this boilerplate for a complete Gatbsy website based on React Bricks and Tailwind CSS, with both the front-end and admin dashboard.
-
-React Bricks is a block-based CMS with WYSIWYG content editing. [Learn more](https://reactbricks.com)
+Kick-start your project with this boilerplate for a complete Gatbsy website based on [React Bricks](https://reactbricks.com), with both the front-end and admin dashboard.
 
 ## 🚀 Quick start
 
-Please, read our documentation at [Reactbricks.com](https://reactbricks.com).
+If you don't have the Gatbsy CLI installed:
 
-We'll soon prepare learning material like tutorials and videos, too.
+```bash
+npm install -g gatsby-cli
+```
+
+To clone this project:
+
+```bash
+gatsby new your-project https://github.com/reactbricks/gatsby-starter-reactbricks
+```
+
+## 📖 Documentation
+
+Please, read our documentation at [Reactbricks.com](https://reactbricks.com/docs).
