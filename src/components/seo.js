@@ -1,13 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
+import { Helmet } from 'react-helmet'
 
-const SEO = ({
-  title = '',
-  description = '',
-  lang = 'en',
-  meta = [],
-}) => {
+const SEO = ({ title = '', description = '', lang = 'en', meta = [] }) => {
   return (
     <Helmet
       htmlAttributes={{ lang }}
