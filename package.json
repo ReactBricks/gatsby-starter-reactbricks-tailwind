@@ -6,7 +6,7 @@
   "author": "Matteo Frana <f2@f2.net>",
   "dependencies": {
     "bluebird": "^3.7.2",
-    "gatsby": "^2.20.25",
+    "gatsby": "^2.20.26",
     "gatsby-plugin-manifest": "^2.3.5",
     "gatsby-plugin-offline": "^3.1.4",
     "gatsby-plugin-postcss": "^2.2.3",
@@ -14,7 +14,7 @@
     "gatsby-plugin-react-helmet": "^3.2.4",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
-    "react-bricks": "^1.0.55",
+    "react-bricks": "^1.0.56",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.0.0"
   },
