@@ -6,6 +6,7 @@ import ErrorNoKeys from '../components/errorNoKeys'
 import ErrorNoHomePage from '../components/errorNoHomePage'
 
 const Page = ({ pageContext: { page, error } }) => {
+  
   const { pageTypes, bricks } = useContext(ReactBricksContext)
 
   // Clean the received content
@@ -21,6 +22,7 @@ const Page = ({ pageContext: { page, error } }) => {
             description={page.meta.description}
             lang={page.meta.language}
           />
+
           <PageViewer page={pageOk} />
         </>
       )}

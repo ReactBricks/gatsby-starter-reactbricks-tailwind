@@ -1,12 +1,14 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 const bluebird = require('bluebird')
 const fetchPages = require('react-bricks').fetchPages
 const fetchPage = require('react-bricks').fetchPage
 
-const appId = process.env.GATSBY_APP_ID
-const apiKey = process.env.API_KEY
-
 exports.createPages = async ({ actions: { createPage } }) => {
-  console.warn(process.env.API_KEY)
+  const appId = process.env.GATSBY_APP_ID
+  const apiKey = process.env.API_KEY
 
   if (!appId || !apiKey) {
     console.error(
