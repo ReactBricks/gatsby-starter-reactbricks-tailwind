@@ -1,10 +1,10 @@
-const React = require('react')
-const ReactBricks = require('react-bricks').ReactBricks
+import React from 'react'
+import { ReactBricks } from 'react-bricks'
 
-const config = require('./src/react-bricks/config').default
-require('./src/css/style.css')
+import config from './src/react-bricks/config'
+import './src/css/style.css'
 
 // Wraps every page in ReactBricks component
-exports.wrapPageElement = ({ element }) => {
+export const wrapPageElement = ({ element }) => {
   return <ReactBricks {...config}>{element}</ReactBricks>
 }

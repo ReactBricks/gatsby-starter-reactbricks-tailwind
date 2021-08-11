@@ -10,7 +10,9 @@ const Footer = () => {
             alt="React Bricks"
             className="w-8"
           />
-          <div className="uppercase text-sm tracking-wider">Next.js website starter</div>
+          <div className="uppercase text-sm tracking-wider">
+            Gatsby website starter
+          </div>
         </div>
         <div className="text-gray-500 text-sm">
           © {new Date().getFullYear()}{' '}
