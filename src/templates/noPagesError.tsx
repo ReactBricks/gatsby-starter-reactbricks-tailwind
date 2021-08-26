@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
 
-const NoPagesError = () => (
+const NoPagesError: React.FC = () => (
   <Layout>
     <div style={{ minHeight: 500, paddingTop: 50 }}>
       <p style={{ marginBottom: 20 }}>
