@@ -8,7 +8,7 @@ const ErrorNoKeys = () => {
       </h1>
       <p className="mb-6">
         <code className="text-sm text-black bg-gray-100 px-1 py-1 rounded">
-          NEXT_PUBLIC_APP_ID
+          GATSBY_APP_ID
         </code>{' '}
         and{' '}
         <code className="text-sm text-black bg-gray-100 px-1 py-1 rounded">
@@ -16,19 +16,19 @@ const ErrorNoKeys = () => {
         </code>{' '}
         are not configured in your{' '}
         <code className="text-sm text-black bg-gray-100 px-1 py-1 rounded">
-          .env.local
+          .env.development
         </code>{' '}
         file.
       </p>
       <p className="mb-2">
         Please create a{' '}
         <code className="text-sm text-black bg-gray-100 px-1 py-1 rounded">
-          .local.env
+          .env.development
         </code>{' '}
         file with:
       </p>
       <pre className="bg-gray-900 text-white px-4 py-3 rounded">
-        {`NEXT_PUBLIC_APP_ID=...
+        {`GATSBY_APP_ID=...
 API_KEY=...`}
       </pre>
     </div>

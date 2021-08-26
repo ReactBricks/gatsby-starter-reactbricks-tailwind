@@ -12,7 +12,7 @@ exports.createPages = async ({ actions: { createPage } }) => {
 
   if (!appId || !apiKey) {
     console.error(
-      'App credentials not found. Please, set your GATSBY_APP_ID and API_KEY in your .env.local file.'
+      'App credentials not found. Please, set your GATSBY_APP_ID and API_KEY in your .env.development or .env.production file.'
     )
     createPage({
       path: `/`,
