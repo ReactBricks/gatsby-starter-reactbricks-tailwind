@@ -1,5 +1,4 @@
-import React from 'react'
-import { Link, navigate } from 'gatsby'
+import { navigate } from 'gatsby'
 import { types } from 'react-bricks'
 
 import bricks from './bricks'
