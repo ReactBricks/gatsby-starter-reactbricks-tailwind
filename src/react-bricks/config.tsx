@@ -11,7 +11,7 @@ const config: types.ReactBricksConfig = {
   pageTypes,
   bricks,
   logo: '/logo.svg',
-  contentClassName: 'content',
+  contentClassName: 'font-content',
   renderLocalLink: GatsbyLink,
   navigate,
   loginPath: '/admin',
