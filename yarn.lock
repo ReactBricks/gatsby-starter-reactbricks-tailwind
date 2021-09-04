@@ -9586,10 +9586,10 @@ react-bricks-ui@^0.1.17:
     react-leaflet "^3.2.1"
     react-simple-code-editor "^0.11.0"
 
-react-bricks@3.0.0-alpha.9:
-  version "3.0.0-alpha.9"
-  resolved "https://registry.yarnpkg.com/react-bricks/-/react-bricks-3.0.0-alpha.9.tgz#b1757847045c1d48e2b6107112fc3346fd266d6f"
-  integrity sha512-E+wr+ocBk2ybinc+93CuQzqAw5U7x20L53IbneRSapv1n9fY3GdFV82yqIWzWBOwA1ghOZ9RZGhycvI7gJytMg==
+react-bricks@^3.0.0-alpha.10:
+  version "3.0.0-alpha.10"
+  resolved "https://registry.yarnpkg.com/react-bricks/-/react-bricks-3.0.0-alpha.10.tgz#1323b5ec9ec83a044e2eefccf4b67d43d9a48de7"
+  integrity sha512-BDYXLsoC1ipLIrcuiJy9YX9gfBdRgI0VecfBMdCg2EHIuOPQyknD94ks8jBYKpFoMtJGZc2Z/0v4Mw6thxCfUg==
   dependencies:
     "@tippyjs/react" "^4.2.5"
     axios "^0.21.1"
