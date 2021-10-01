@@ -17,7 +17,7 @@ exports.createPages = async ({ actions: { createPage } }) => {
     createPage({
       path: `/`,
       component: require.resolve('./src/templates/page.tsx'),
-      context: { page: null },
+      context: { page: null, error: 'NOKEYS' },
     })
     return
   }
@@ -31,7 +31,7 @@ exports.createPages = async ({ actions: { createPage } }) => {
     createPage({
       path: `/`,
       component: require.resolve('./src/templates/page.tsx'),
-      context: { page: null },
+      context: { page: null, error: 'NOPAGE' },
     })
     return
   }
