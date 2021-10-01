@@ -11,7 +11,7 @@ const Footer = () => {
             className="w-8"
           />
           <div className="uppercase text-sm tracking-wider">
-            Gatsby website starter
+            Gatsby starter Tailwind CSS
           </div>
         </div>
         <div className="text-gray-500 text-sm">
