@@ -12,6 +12,8 @@ const config: types.ReactBricksConfig = {
   bricks,
   logo: '/logo.svg',
   contentClassName: 'font-content',
+  // isDarkColorMode: ...,
+  // toggleColorMode: ...,
   renderLocalLink: GatsbyLink,
   navigate,
   loginPath: '/admin',
@@ -20,6 +22,11 @@ const config: types.ReactBricksConfig = {
   appSettingsPath: '/admin/app-settings',
   useCssInJs: false,
   appRootElement: '#___gatsby',
+  clickToEditSide: types.ClickToEditSide.BottomRight,
+  customFields: [],
+  //responsiveBreakpoints: [{ type: types.DeviceType.Phone, width: 480, label: 'Smartphone'}],
+  enableAutoSave: true,
+  disableSaveIfInvalidProps: false,
 }
 
 export default config
