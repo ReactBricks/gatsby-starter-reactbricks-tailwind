@@ -20,12 +20,12 @@ const Header: React.FC = () => (
             </Link>
           </div>
         </div>
-        <Link
-          to="/admin"
+        <a
+          href="/admin"
           className="py-2 px-5 rounded text-white font-medium bg-cyan-500 hover:bg-cyan-600 hover:shadow-lg transition duration-200"
         >
           Edit content
-        </Link>
+        </a>
       </div>
     </div>
   </header>
