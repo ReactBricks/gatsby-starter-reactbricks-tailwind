@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { ReactBricks } from 'react-bricks'
+import { ReactBricks } from 'react-bricks/frontend'
 
 import config from './src/react-bricks/config'
 import './src/css/style.css'

@@ -3,8 +3,8 @@ require('dotenv').config({
 })
 
 const bluebird = require('bluebird')
-const fetchPages = require('react-bricks').fetchPages
-const fetchPage = require('react-bricks').fetchPage
+const fetchPages = require('react-bricks/frontend').fetchPages
+const fetchPage = require('react-bricks/frontend').fetchPage
 
 exports.createPages = async ({ actions: { createPage } }) => {
   const appId = process.env.GATSBY_APP_ID
