@@ -3571,6 +3571,11 @@ date-fns@^2.25.0:
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.25.0.tgz#8c5c8f1d958be3809a9a03f4b742eba894fc5680"
   integrity sha512-ovYRFnTrbGPD4nqaEqescPEv1mNwvt+UTqI3Ay9SzNtey9NZnYu6E2qCcBBgJ6/2VF1zGGygpyTDITqpQQ5e+w==
 
+dayjs@^1.10.7:
+  version "1.10.7"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.10.7.tgz#2cf5f91add28116748440866a0a1d26f3a6ce468"
+  integrity sha512-P6twpd70BcPK34K26uJ1KT3wlhpuOAPoMwJzpsIWUxHZ7wpmbdZL/hQqBDfz7hGurYSa5PhzdhDHtt319hL3ig==
+
 debug@2.6.9, debug@^2.1.3, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.9:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
@@ -8585,12 +8590,13 @@ rc@^1.2.7, rc@^1.2.8:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-bricks-ui@^0.3.2:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/react-bricks-ui/-/react-bricks-ui-0.3.2.tgz#9e5d216d882a8270407828504de5b4904e9c916c"
-  integrity sha512-n30t4T2INyLTyePBxUUPu2qXzysS+fjx1fHo5bWREhlozhGy2g7VcYuN3a28uDbS2Gblw9btB+U7ijdhEd41Mg==
+react-bricks-ui@^0.3.3:
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/react-bricks-ui/-/react-bricks-ui-0.3.3.tgz#569c203c77f170064f6fe382460aa2943fe6b64d"
+  integrity sha512-vLD56QlTctPnfGoRJ+mA1cTQ4R+6/WIVogy/6VRmnvAinJtezAuIP8GO0kZvs7no+UTyBNa9aLoKbB0uySy6lQ==
   dependencies:
     classnames "^2.3.1"
+    dayjs "^1.10.7"
     email-validator "^2.0.4"
     jsonp "^0.2.1"
     pigeon-maps "^0.19.7"
@@ -8600,10 +8606,10 @@ react-bricks-ui@^0.3.2:
     react-leaflet "^3.2.1"
     react-simple-code-editor "^0.11.0"
 
-react-bricks@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/react-bricks/-/react-bricks-3.2.0.tgz#1b3719e7a90dd8c7076704c80d62f53f0d246341"
-  integrity sha512-wjH4k1uDt2AiGRmfm0qY2kDIsTjY2TfjwE4H92AMSE4c9uCiFY9yXFTS21TXAEUPz3NtTN5NggLVXFYQ8UaSrA==
+react-bricks@^3.2.5:
+  version "3.2.5"
+  resolved "https://registry.yarnpkg.com/react-bricks/-/react-bricks-3.2.5.tgz#93ff04b42247c4e6a17267c72acc10ba99160323"
+  integrity sha512-kLHdDZPT63Kp4hglvYv9pkybydjjIoyGTuZl+iFNKV5W35KMPqZ7P/0ReVTlZyN3qgB9FUjAPph/yOB16aGx0w==
   dependencies:
     "@tippyjs/react" "^4.2.5"
     axios "^0.23.0"
