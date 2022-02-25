@@ -7,16 +7,17 @@
   "dependencies": {
     "autoprefixer": "^10.4.2",
     "bluebird": "^3.7.2",
-    "gatsby": "^4.5.2",
-    "gatsby-plugin-manifest": "^4.5.1",
-    "gatsby-plugin-offline": "^5.5.1",
-    "gatsby-plugin-postcss": "^5.5.0",
-    "gatsby-plugin-react-helmet": "^5.5.0",
+    "gatsby": "^4.8.1",
+    "gatsby-plugin-manifest": "^4.8.1",
+    "gatsby-plugin-offline": "^5.8.1",
+    "gatsby-plugin-postcss": "^5.8.0",
+    "gatsby-plugin-react-helmet": "^5.8.0",
+    "postcss": "^8.4.7",
     "prism-theme-night-owl": "^1.4.0",
-    "prismjs": "^1.26.0",
+    "prismjs": "^1.27.0",
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
-    "react-bricks": "^3.2.8",
+    "react-bricks": "^3.2.12",
     "react-bricks-ui": "^0.3.20",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0"
@@ -25,7 +26,7 @@
     "@types/react-helmet": "^6.1.5",
     "concurrently": "^7.0.0",
     "prettier": "^2.5.1",
-    "tailwindcss": "^3.0.13"
+    "tailwindcss": "^3.0.23"
   },
   "keywords": [
     "gatsby",
@@ -35,10 +36,8 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "npm run build:css && gatsby build",
-    "build:css": "tailwindcss -o ./src/css/tailwind.css",
-    "develop": "concurrently \"npm run develop:css\" \"gatsby develop\"",
-    "develop:css": "tailwindcss -o ./src/css/tailwind.css --watch",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
