@@ -11,6 +11,7 @@ const config: types.ReactBricksConfig = {
   pageTypes,
   bricks,
   logo: '/logo.svg',
+  previewPath: '/preview',
   contentClassName: 'font-content',
   // isDarkColorMode: ...,
   // toggleColorMode: ...,
@@ -27,6 +28,7 @@ const config: types.ReactBricksConfig = {
   //responsiveBreakpoints: [{ type: types.DeviceType.Phone, width: 480, label: 'Smartphone'}],
   enableAutoSave: true,
   disableSaveIfInvalidProps: false,
+  enablePreview: true,
 }
 
 export default config
