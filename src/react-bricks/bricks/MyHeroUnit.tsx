@@ -22,13 +22,13 @@ const MyHeroUnit: types.Brick<HeroUnitProps> = ({ padding }) => {
         padding === 'big' ? 'py-20' : 'py-12'
       }`}
     >
-      <div className="flex flex-col items-center">
+      <div>
         <Image
           propName="icon"
           alt="Icon"
           maxWidth={80}
           aspectRatio={1}
-          imageClassName="w-20 mb-5"
+          imageClassName="w-20 mb-5 mx-auto"
         />
         <Text
           renderBlock={(props) => (
